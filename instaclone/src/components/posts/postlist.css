@@ -1,0 +1,50 @@
+.centerbarmaincontainer{
+    -webkit-box-shadow: 5px 6px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 5px 6px 5px 0px rgba(0,0,0,0.75);
+box-shadow: 5px 6px 5px 0px rgba(0,0,0,0.75);
+height:500px;
+width:600px;
+margin-bottom: 15px;
+}
+.centerbarposttop{
+    display:flex;
+    align-items: center;
+    justify-content:space-between ;
+}
+.centerbartopleft{
+    margin-left: 10px;
+}
+.userName{
+    font-weight: 700;
+}
+.userlocation{
+    color:lightgray;
+}
+.centerbartopright{
+    margin-right: 10px;
+}
+.centerbarpostimage{
+    width:100%;
+    max-height: 300px;
+    object-fit: contain;
+}
+.centerbarpostbottomtopcontainer{
+    display:flex;
+    align-items:center;
+    justify-content: space-between;
+}
+.centerbarpostbottomtop{
+    margin-left: 10px;
+}
+.userDate{
+    margin-right: 10px;
+}
+.heartemoji:hover{
+  cursor: pointer;
+}
+.sendemoji:hover{
+    cursor:pointer;
+}
+.userLikes,.userDescription{
+margin-left: 10px;
+}

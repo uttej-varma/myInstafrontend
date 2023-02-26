@@ -1,0 +1,42 @@
+.topbarContainer{
+    width:100%;
+    height:104px;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    position: sticky;
+    top:0px;
+   
+}
+.topbarlogoContainer{
+    float: left;
+    display:flex;
+    align-items: center;
+    margin-left: 20px;
+}
+
+.topbarlogoimg{
+    width:64px;
+    height:64px;
+}
+.topbarappname{
+    color:#006238;
+    font-size: 64px;
+    margin-left: 10px;
+}
+.topbarcameracontainer{
+  
+    margin-right: 30px;
+}
+.topbarcamera{
+    font-size: 40px !important;
+}
+.topbarcamera:hover{
+    cursor: pointer;
+}
+.topbarhorizontalruler{
+    background-color:#006238 ;
+    position:sticky;
+    top:104px;
+    height: 4px;
+}

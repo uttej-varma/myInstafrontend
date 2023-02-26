@@ -1,0 +1,19 @@
+.postpagemaincontainer{
+    height:calc(100vh - 104px);
+    display: flex;
+    justify-content: center;
+}
+.postform{
+   align-self: center;
+   border:1px solid lightgray;
+}
+.formauthorandlocation{
+    display:flex;
+    justify-content: space-around;
+}
+.formdescription{
+    width:350px;
+}
+.postbutton{
+    margin-left: 150px;
+}

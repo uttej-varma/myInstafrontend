@@ -1,0 +1,7 @@
+.centerbarallpostscontainer{
+    overflow-y: scroll;
+}
+.postLoadingButton{
+    color:White;
+    background-color: green;
+}
